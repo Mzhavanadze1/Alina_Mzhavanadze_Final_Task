@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+
+    <test name="Commands test">
+        <parameter name="browser" value="chrome"/>
+        <classes>
+            <class name="Hotel_E2E_Test"/>
+        </classes>
+    </test> <!-- Test -->
+
+    <test name="SeleniumTests.Day4">
+        <parameter name="browser" value="chrome"/>
+        <classes>
+            <class name="Shop_E2E_test"/>
+        </classes>
+    </test> <!-- Test -->
+</suite> <!-- Suite -->
